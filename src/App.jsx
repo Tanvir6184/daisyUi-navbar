@@ -1,4 +1,7 @@
 import './App.css'
+import Navbar from './Components/DaisyUi-Nav/Navbar'
+import Nav from './Components/DaisyUi-Nav/Nav'
+import PriceOptions from './Components/Price Options/PriceOptions'
 
 function App() {
   
@@ -6,7 +9,9 @@ function App() {
   return (
     <>
      
-      <h1>Vite + React</h1>
+     <Nav></Nav>
+      {/* <Navbar></Navbar> */}
+      <PriceOptions></PriceOptions>
       
     </>
   )
