@@ -1,4 +1,4 @@
-
+import { FaCheck } from "react-icons/fa";
 const Feature = ({feature}) => {
 
 
@@ -6,7 +6,7 @@ const Feature = ({feature}) => {
 
 
         <div>
-            <p className="text-center font-semibold">{feature}</p>
+            <p className="text-center font-semibold flex items-center"> <FaCheck className="text-green-500 mr-2 "></FaCheck> {feature}</p>
         </div>
     );
 };
